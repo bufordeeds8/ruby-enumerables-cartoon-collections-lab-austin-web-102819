@@ -7,7 +7,7 @@ def roll_call_dwarves(array)# code an argument here
 end
 # roll_call_dwarves(dwarves)
 def summon_captain_planet(array) # code an argument here
-array.map { |e| p e.capitalize + "!" if e.length > 4 p true}
+array.map { |e| p e.capitalize + "!"}
 
 end
 
