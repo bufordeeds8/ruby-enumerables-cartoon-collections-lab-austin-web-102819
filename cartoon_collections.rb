@@ -11,7 +11,7 @@ array.map { |e| p e.capitalize + "!"}
 end
 
 def long_planeteer_calls(array)
-  # Your code here
+  array.map { |e| p true if e.length > 4 }
 end
 
 def find_the_cheese# code an argument here
