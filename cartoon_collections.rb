@@ -2,7 +2,7 @@ dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 def roll_call_dwarves(array)# code an argument here
   array.each_with_index{|word, index|
-  p "#{index+1}. #{word}"} 
+  p "#{index+1}. #{word}"}
 
 end
 roll_call_dwarves(dwarves)
